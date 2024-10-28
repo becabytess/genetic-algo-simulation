@@ -1,0 +1,11 @@
+export const roadInitPos = [0, 0, 0];
+export const roadLength = 5000;
+export const roadWidth = 20;
+export const ballInitPos = [0, 4, 0];
+export const ballRadius = 1;
+export const roadEdgeLeftPos = [-roadWidth / 2, roadInitPos[1], roadInitPos[2]];
+export const roadEdgeRightPos = [roadWidth / 2, roadInitPos[1], roadInitPos[2]];
+export const force = 20;
+export const roadEdgeWidth = 4;
+export const roadEdgeHeight = 8;
+export const cameraPos = [0, 10, 30];
